@@ -32,6 +32,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="labelOne" destination="YUk-Qe-PGo" id="gf8-Vy-hNd"/>
+                        <outlet property="labelTwo" destination="lFE-43-gaA" id="BDm-hW-9Ap"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
