@@ -13,6 +13,7 @@
 		861A1B281D3FEC1D00B58E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861A1B261D3FEC1D00B58E61 /* Main.storyboard */; };
 		861A1B2A1D3FEC1D00B58E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861A1B291D3FEC1D00B58E61 /* Assets.xcassets */; };
 		861A1B2D1D3FEC1D00B58E61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861A1B2B1D3FEC1D00B58E61 /* LaunchScreen.storyboard */; };
+		EA5464521D3FEED100917BCA /* AnnaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5464511D3FEED100917BCA /* AnnaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		861A1B291D3FEC1D00B58E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		861A1B2C1D3FEC1D00B58E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		861A1B2E1D3FEC1D00B58E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5464501D3FEED100917BCA /* AnnaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnaViewController.h; sourceTree = "<group>"; };
+		EA5464511D3FEED100917BCA /* AnnaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				861A1B211D3FEC1D00B58E61 /* AppDelegate.m */,
 				861A1B231D3FEC1D00B58E61 /* ViewController.h */,
 				861A1B241D3FEC1D00B58E61 /* ViewController.m */,
+				EA5464501D3FEED100917BCA /* AnnaViewController.h */,
+				EA5464511D3FEED100917BCA /* AnnaViewController.m */,
 				861A1B261D3FEC1D00B58E61 /* Main.storyboard */,
 				861A1B291D3FEC1D00B58E61 /* Assets.xcassets */,
 				861A1B2B1D3FEC1D00B58E61 /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA5464521D3FEED100917BCA /* AnnaViewController.m in Sources */,
 				861A1B251D3FEC1D00B58E61 /* ViewController.m in Sources */,
 				861A1B221D3FEC1D00B58E61 /* AppDelegate.m in Sources */,
 				861A1B1F1D3FEC1D00B58E61 /* main.m in Sources */,
@@ -300,6 +306,7 @@
 				861A1B331D3FEC1D00B58E61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
