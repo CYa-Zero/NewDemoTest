@@ -8,10 +8,6 @@
 
 #import "ViewController.h"
 #import "CYViewController.h"
-<<<<<<< Updated upstream
-=======
-#import "AnnaViewController.h"
->>>>>>> Stashed changes
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *labelOne;
@@ -38,12 +34,6 @@
 - (IBAction)btn_Action:(id)sender {
     CYViewController*CV = [self.storyboard instantiateViewControllerWithIdentifier:@"CYViewController"];
     [self presentViewController:CV animated:YES completion:nil];
-<<<<<<< Updated upstream
-=======
 }
-- (IBAction)ToAnnaViewBtnTapped:(id)sender {
-    AnnaViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"AnnaViewController"];
-    [self.navigationController pushViewController:controller animated:true];
->>>>>>> Stashed changes
-}
+
 @end

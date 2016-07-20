@@ -14,6 +14,7 @@
 		861A1B2A1D3FEC1D00B58E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861A1B291D3FEC1D00B58E61 /* Assets.xcassets */; };
 		861A1B2D1D3FEC1D00B58E61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861A1B2B1D3FEC1D00B58E61 /* LaunchScreen.storyboard */; };
 		861A1B391D3FEFB400B58E61 /* CYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 861A1B381D3FEFB400B58E61 /* CYViewController.m */; };
+		EA5464551D3FF2FB00917BCA /* AnnaMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5464541D3FF2FB00917BCA /* AnnaMoreViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		861A1B2E1D3FEC1D00B58E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		861A1B371D3FEFB400B58E61 /* CYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYViewController.h; sourceTree = "<group>"; };
 		861A1B381D3FEFB400B58E61 /* CYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYViewController.m; sourceTree = "<group>"; };
+		EA5464531D3FF2FB00917BCA /* AnnaMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnaMoreViewController.h; sourceTree = "<group>"; };
+		EA5464541D3FF2FB00917BCA /* AnnaMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnaMoreViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				861A1B261D3FEC1D00B58E61 /* Main.storyboard */,
 				861A1B371D3FEFB400B58E61 /* CYViewController.h */,
 				861A1B381D3FEFB400B58E61 /* CYViewController.m */,
+				EA5464531D3FF2FB00917BCA /* AnnaMoreViewController.h */,
+				EA5464541D3FF2FB00917BCA /* AnnaMoreViewController.m */,
 				861A1B291D3FEC1D00B58E61 /* Assets.xcassets */,
 				861A1B2B1D3FEC1D00B58E61 /* LaunchScreen.storyboard */,
 				861A1B2E1D3FEC1D00B58E61 /* Info.plist */,
@@ -154,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA5464551D3FF2FB00917BCA /* AnnaMoreViewController.m in Sources */,
 				861A1B391D3FEFB400B58E61 /* CYViewController.m in Sources */,
 				861A1B251D3FEC1D00B58E61 /* ViewController.m in Sources */,
 				861A1B221D3FEC1D00B58E61 /* AppDelegate.m in Sources */,
